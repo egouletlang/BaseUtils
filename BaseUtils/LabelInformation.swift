@@ -8,8 +8,8 @@
 
 import Foundation
 
-public class LabelInformation: NSObject {
-    var attr: NSAttributedString?
-    var links: [URL] = []
-    var ranges: [NSRange] = []
+open class LabelInformation: NSObject {
+    open var attr: NSAttributedString?
+    open var links: [URL] = []
+    open var ranges: [NSRange] = []
 }

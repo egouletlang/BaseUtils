@@ -12,9 +12,8 @@
 		6BF945BD1DF2ADAB00658E13 /* BaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF945AF1DF2ADAB00658E13 /* BaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BF945CC1DF2ADBA00658E13 /* AttributeStringCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BF945CD1DF2ADBA00658E13 /* AttributeStringCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */; };
-		6BF945CE1DF2ADBA00658E13 /* AttributeStringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945C91DF2ADBA00658E13 /* AttributeStringHelper.swift */; };
-		6BF945CF1DF2ADBA00658E13 /* LabelInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945CA1DF2ADBA00658E13 /* LabelInformation.swift */; };
 		6BF945D01DF2ADBA00658E13 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */; };
+		6BF945D21DF2AE8E00658E13 /* LabelInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +35,8 @@
 		6BF945BC1DF2ADAB00658E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeStringCreator.h; sourceTree = "<group>"; };
 		6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeStringCreator.m; sourceTree = "<group>"; };
-		6BF945C91DF2ADBA00658E13 /* AttributeStringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeStringHelper.swift; sourceTree = "<group>"; };
-		6BF945CA1DF2ADBA00658E13 /* LabelInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelInformation.swift; sourceTree = "<group>"; };
 		6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +83,7 @@
 				6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */,
 				6BF945AF1DF2ADAB00658E13 /* BaseUtils.h */,
 				6BF945B01DF2ADAB00658E13 /* Info.plist */,
+				6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */,
 			);
 			path = BaseUtils;
 			sourceTree = "<group>";
@@ -103,8 +102,6 @@
 			children = (
 				6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */,
 				6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */,
-				6BF945C91DF2ADBA00658E13 /* AttributeStringHelper.swift */,
-				6BF945CA1DF2ADBA00658E13 /* LabelInformation.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -225,8 +222,7 @@
 			files = (
 				6BF945D01DF2ADBA00658E13 /* StringUtils.swift in Sources */,
 				6BF945CD1DF2ADBA00658E13 /* AttributeStringCreator.m in Sources */,
-				6BF945CE1DF2ADBA00658E13 /* AttributeStringHelper.swift in Sources */,
-				6BF945CF1DF2ADBA00658E13 /* LabelInformation.swift in Sources */,
+				6BF945D21DF2AE8E00658E13 /* LabelInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
