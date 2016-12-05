@@ -36,8 +36,8 @@ open class LRUCache<T: Comparable & Hashable, K> {
         return cache.get(key) as? LRUCacheEntry<K>
     }
     
-    open func put(key: T, obj: LRUCacheEntry<K>) {
-        currentCost += obj.cost
+    open func put(key: T, obj: AnyObject) {
+        currentCost += (obj as? LRUCacheEntry<K>)?.cost ?? 0
         
         recentKeys.addOrMove(value: key)
         cache[key] = obj
