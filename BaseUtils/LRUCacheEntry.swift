@@ -20,7 +20,7 @@ open class LRUCacheEntry<K>: NSObject, NSCoding {
         value = aDecoder.decodeObject(forKey: "value") as! K
     }
     
-    public func encode(with aCoder: NSCoder) {
+    open func encode(with aCoder: NSCoder) {
         aCoder.encode(cost, forKey: "cost")
         aCoder.encode(value, forKey: "value")
     }
