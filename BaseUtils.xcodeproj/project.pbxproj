@@ -25,10 +25,6 @@
 		6BF945B61DF2ADAB00658E13 /* BaseUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF945AC1DF2ADAB00658E13 /* BaseUtils.framework */; };
 		6BF945BB1DF2ADAB00658E13 /* BaseUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945BA1DF2ADAB00658E13 /* BaseUtilsTests.swift */; };
 		6BF945BD1DF2ADAB00658E13 /* BaseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF945AF1DF2ADAB00658E13 /* BaseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BF945CC1DF2ADBA00658E13 /* AttributeStringCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BF945CD1DF2ADBA00658E13 /* AttributeStringCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */; };
-		6BF945D01DF2ADBA00658E13 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */; };
-		6BF945D21DF2AE8E00658E13 /* LabelInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */; };
 		6BF945FA1DF2B0EE00658E13 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF945F91DF2B0EE00658E13 /* ThreadHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +60,6 @@
 		6BF945B51DF2ADAB00658E13 /* BaseUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF945BA1DF2ADAB00658E13 /* BaseUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUtilsTests.swift; sourceTree = "<group>"; };
 		6BF945BC1DF2ADAB00658E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeStringCreator.h; sourceTree = "<group>"; };
-		6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeStringCreator.m; sourceTree = "<group>"; };
-		6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
-		6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelInformation.swift; sourceTree = "<group>"; };
 		6BF945F91DF2B0EE00658E13 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,11 +128,8 @@
 			children = (
 				6BCB29801DF5022500AC3A7E /* UniqueOperations */,
 				6BCB296B1DF4C05B00AC3A7E /* Extension */,
-				6BF945C61DF2ADBA00658E13 /* Helper */,
-				6BF945CB1DF2ADBA00658E13 /* StringUtils.swift */,
 				6BF945AF1DF2ADAB00658E13 /* BaseUtils.h */,
 				6BF945B01DF2ADAB00658E13 /* Info.plist */,
-				6BF945D11DF2AE8E00658E13 /* LabelInformation.swift */,
 				6BF945F91DF2B0EE00658E13 /* ThreadHelper.swift */,
 				6BCB295D1DF3418200AC3A7E /* BaseUIProtocol.swift */,
 				6BCB295F1DF342B100AC3A7E /* PresentationHelper.swift */,
@@ -161,15 +150,6 @@
 			path = BaseUtilsTests;
 			sourceTree = "<group>";
 		};
-		6BF945C61DF2ADBA00658E13 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				6BF945C71DF2ADBA00658E13 /* AttributeStringCreator.h */,
-				6BF945C81DF2ADBA00658E13 /* AttributeStringCreator.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -178,7 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF945BD1DF2ADAB00658E13 /* BaseUtils.h in Headers */,
-				6BF945CC1DF2ADBA00658E13 /* AttributeStringCreator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF945D01DF2ADBA00658E13 /* StringUtils.swift in Sources */,
 				6BCB29771DF4C05B00AC3A7E /* UITableView_EXT.swift in Sources */,
 				6BF945FA1DF2B0EE00658E13 /* ThreadHelper.swift in Sources */,
 				6BCB29751DF4C05B00AC3A7E /* String_EXT.swift in Sources */,
 				6BCB297B1DF4C79300AC3A7E /* LRUCache.swift in Sources */,
 				6BCB29741DF4C05B00AC3A7E /* Dictionary_EXT.swift in Sources */,
-				6BF945CD1DF2ADBA00658E13 /* AttributeStringCreator.m in Sources */,
 				6BCB29601DF342B100AC3A7E /* PresentationHelper.swift in Sources */,
 				6BCB29841DF5022500AC3A7E /* UniqueOperation.swift in Sources */,
 				6BCB29851DF5022500AC3A7E /* UniqueOperationDelegate.swift in Sources */,
@@ -302,7 +279,6 @@
 				6BCB295E1DF3418200AC3A7E /* BaseUIProtocol.swift in Sources */,
 				6BCB297D1DF4C7AD00AC3A7E /* LinkedList.swift in Sources */,
 				6BCB29761DF4C05B00AC3A7E /* UIColor_EXT.swift in Sources */,
-				6BF945D21DF2AE8E00658E13 /* LabelInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
