@@ -30,7 +30,7 @@ open class AsyncToSync<T> {
         var timeSlept: TimeInterval = 0
         while (!isResultReady && timeSlept < timeout) {
             Thread.sleep(forTimeInterval: SLEEP_TIME)
-            timeSlept += timeSlept
+            timeSlept += SLEEP_TIME
         }
         
         return result
