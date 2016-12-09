@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B2037771DF50A3F009C1797 /* LRUCacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2037761DF50A3F009C1797 /* LRUCacheEntry.swift */; };
+		6B4294661DFB41D500AA2BFB /* AsyncToSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */; };
 		6BCB295E1DF3418200AC3A7E /* BaseUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB295D1DF3418200AC3A7E /* BaseUIProtocol.swift */; };
 		6BCB29601DF342B100AC3A7E /* PresentationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB295F1DF342B100AC3A7E /* PresentationHelper.swift */; };
 		6BCB29721DF4C05B00AC3A7E /* Array_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB296C1DF4C05B00AC3A7E /* Array_EXT.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		6B2037761DF50A3F009C1797 /* LRUCacheEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCacheEntry.swift; sourceTree = "<group>"; };
+		6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncToSync.swift; sourceTree = "<group>"; };
 		6BCB295D1DF3418200AC3A7E /* BaseUIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIProtocol.swift; sourceTree = "<group>"; };
 		6BCB295F1DF342B100AC3A7E /* PresentationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationHelper.swift; sourceTree = "<group>"; };
 		6BCB296C1DF4C05B00AC3A7E /* Array_EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array_EXT.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				6BCB297A1DF4C79300AC3A7E /* LRUCache.swift */,
 				6BCB297C1DF4C7AD00AC3A7E /* LinkedList.swift */,
 				6B2037761DF50A3F009C1797 /* LRUCacheEntry.swift */,
+				6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */,
 			);
 			path = BaseUtils;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				6BCB29851DF5022500AC3A7E /* UniqueOperationDelegate.swift in Sources */,
 				6B2037771DF50A3F009C1797 /* LRUCacheEntry.swift in Sources */,
 				6BCB29721DF4C05B00AC3A7E /* Array_EXT.swift in Sources */,
+				6B4294661DFB41D500AA2BFB /* AsyncToSync.swift in Sources */,
 				6BCB29791DF4C5BB00AC3A7E /* Types.swift in Sources */,
 				6BCB29861DF5022500AC3A7E /* UniqueOperationQueue.swift in Sources */,
 				6BCB29731DF4C05B00AC3A7E /* CGColor_EXT.swift in Sources */,
