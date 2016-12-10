@@ -10,7 +10,7 @@ import Foundation
 
 open class AsyncToSync<T> {
     
-    private let SLEEP_TIME: TimeInterval = 0.1
+    private let SLEEP_TIME: TimeInterval = 1
     
     public init(timeout: TimeInterval = 5) {
         self.timeout = timeout
@@ -24,8 +24,10 @@ open class AsyncToSync<T> {
         }
     }
     
-    open func start(block: (AsyncToSync<T>)->Void) -> T? {
-        block(self)
+    open func start(block: @escaping (AsyncToSync<T>)->Void) -> T? {
+        ThreadHelper.checkedExecuteOnBackgroundThread {
+            block(self)
+        }
         
         var timeSlept: TimeInterval = 0
         while (!isResultReady && timeSlept < timeout) {
