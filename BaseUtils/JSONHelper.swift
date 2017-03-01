@@ -8,12 +8,12 @@
 
 import Foundation
 
-class JSONHelper {
-    class func concat(list: [String], split: String = " ") -> String {
+open class JSONHelper {
+    open class func concat(list: [String], split: String = " ") -> String {
         return list.joined(separator: split)
     }
     
-    class func toJsonString(obj: AnyObject) -> String? {
+    open class func toJsonString(obj: AnyObject) -> String? {
         var err: NSError?
         var data: Data?
         do {
@@ -30,7 +30,7 @@ class JSONHelper {
         }
     }
     
-    class func jsonStringToDict(str: String?) -> [String: AnyObject] {
+    open class func jsonStringToDict(str: String?) -> [String: AnyObject] {
         if  let s = str,
             let d = s.data(using:String.Encoding(rawValue: String.Encoding.utf8.rawValue)) {
             do {
