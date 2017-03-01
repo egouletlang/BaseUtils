@@ -11,6 +11,7 @@
 		6B2037771DF50A3F009C1797 /* LRUCacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2037761DF50A3F009C1797 /* LRUCacheEntry.swift */; };
 		6B4249141E623C5A00C33FD8 /* BaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4249131E623C5A00C33FD8 /* BaseState.swift */; };
 		6B4294661DFB41D500AA2BFB /* AsyncToSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */; };
+		6BA5D7931E6778A300A93C10 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5D7921E6778A300A93C10 /* JSONHelper.swift */; };
 		6BCB295E1DF3418200AC3A7E /* BaseUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB295D1DF3418200AC3A7E /* BaseUIProtocol.swift */; };
 		6BCB29601DF342B100AC3A7E /* PresentationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB295F1DF342B100AC3A7E /* PresentationHelper.swift */; };
 		6BCB29721DF4C05B00AC3A7E /* Array_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB296C1DF4C05B00AC3A7E /* Array_EXT.swift */; };
@@ -46,6 +47,7 @@
 		6B2037761DF50A3F009C1797 /* LRUCacheEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCacheEntry.swift; sourceTree = "<group>"; };
 		6B4249131E623C5A00C33FD8 /* BaseState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseState.swift; sourceTree = "<group>"; };
 		6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncToSync.swift; sourceTree = "<group>"; };
+		6BA5D7921E6778A300A93C10 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		6BCB295D1DF3418200AC3A7E /* BaseUIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIProtocol.swift; sourceTree = "<group>"; };
 		6BCB295F1DF342B100AC3A7E /* PresentationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationHelper.swift; sourceTree = "<group>"; };
 		6BCB296C1DF4C05B00AC3A7E /* Array_EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array_EXT.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				6B4294651DFB41D500AA2BFB /* AsyncToSync.swift */,
 				6B0393D51E5F4B2B0024638A /* SimpleTimer.swift */,
 				6B4249131E623C5A00C33FD8 /* BaseState.swift */,
+				6BA5D7921E6778A300A93C10 /* JSONHelper.swift */,
 			);
 			path = BaseUtils;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				6BCB29841DF5022500AC3A7E /* UniqueOperation.swift in Sources */,
 				6BCB29851DF5022500AC3A7E /* UniqueOperationDelegate.swift in Sources */,
 				6B2037771DF50A3F009C1797 /* LRUCacheEntry.swift in Sources */,
+				6BA5D7931E6778A300A93C10 /* JSONHelper.swift in Sources */,
 				6BCB29721DF4C05B00AC3A7E /* Array_EXT.swift in Sources */,
 				6B4294661DFB41D500AA2BFB /* AsyncToSync.swift in Sources */,
 				6B4249141E623C5A00C33FD8 /* BaseState.swift in Sources */,
