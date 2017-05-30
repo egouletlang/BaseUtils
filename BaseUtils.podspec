@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.name         = "BaseUtils"
-  s.version      = "1.0.42"
+  s.version      = "1.0.43"
   s.summary      = "BaseUtils classes"
   s.description  = <<-DESC
   A bunch of classes i have found useful for BaseUtils
